@@ -30,6 +30,11 @@ while(shouldContinue){
     // 4.) look at pendingTimers. Call any and only setImmediate
     
     // 5.) Handle any 'close' events
+
+    // eg: 
+    //  readStream.on('close', ()=>{
+    //      console.log('Cleanup Code');
+    //  })
 }
 
 
